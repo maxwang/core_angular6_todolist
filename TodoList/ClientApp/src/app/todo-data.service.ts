@@ -5,7 +5,7 @@ import { Todo } from './todo';
   providedIn: 'root'
 })
 export class TodoDataService {
-  lastId: number = 0;
+  lastId = 0;
   todos: Todo[] = [];
 
   constructor() { }
